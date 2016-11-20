@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteLesson8" parallel="false">
+    <test name="Test">
+        <parameter name="email" value="qqqqq@qq.qq"/>
+        <parameter name="password" value="123456"/>
+        <classes>
+            <class name="exam.ParamFromXml"></class>
+        </classes>
+    </test>
+</suite>
